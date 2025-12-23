@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 
 const photos = Array.from({ length: 19 }, (_, i) => ({
-  src: `/image${i + 1}.jpeg`,
+  src: `./image${i + 1}.jpeg`,
   caption: `Memory ${i + 1}`
 }));
 

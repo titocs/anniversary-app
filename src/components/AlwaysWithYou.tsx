@@ -5,9 +5,9 @@ import { Bus, MapPin, Heart } from 'lucide-react';
 // Using a few placeholder images from the uploaded set
 // The user can swap these for the actual TJ specific photos later
 const routinePhotos = [
-  { src: "/image-tj-1.jpeg", rotation: -3 },
-  { src: "/image-tj-2.jpeg", rotation: 2 },
-  { src: "/image-tj-3.jpeg", rotation: -2 },
+  { src: "./image-tj-1.jpeg", rotation: -3 },
+  { src: "./image-tj-2.jpeg", rotation: 2 },
+  { src: "./image-tj-3.jpeg", rotation: -2 },
 ];
 
 const AlwaysWithYou = () => {
