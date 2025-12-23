@@ -7,6 +7,7 @@ import GiftReward from './components/GiftReward';
 // import CarouselGallery from './components/CarouselGallery';
 import MarqueeGallery from './components/MarqueeGallery';
 import AlwaysWithYou from './components/AlwaysWithYou';
+import Wishes from './components/Wishes';
 
 function App() {
   // Example start date: 3 years ago from now
@@ -24,6 +25,7 @@ function App() {
         {/* <Gallery /> */}
         {/* <OurStory /> */}
         <AlwaysWithYou />
+        <Wishes />
         <Footer />
         <MusicPlayer />
         <GiftReward />
