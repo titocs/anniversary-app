@@ -88,7 +88,7 @@ const AlwaysWithYou = () => {
                 whileHover={{ scale: 1.05, rotate: 0, zIndex: 10, transition: { duration: 0.3 } }}
               >
                 <div className="w-full h-full overflow-hidden rounded-lg bg-gray-100">
-                   <img src={photo.src} alt="Us on TJ" className="w-full h-full object-cover" />
+                   <img src={import.meta.env.BASE_URL + photo.src} alt="Us on TJ" className="w-full h-full object-cover" />
                 </div>
               </motion.div>
             ))}

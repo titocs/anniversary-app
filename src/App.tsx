@@ -1,7 +1,6 @@
 import Hero from './components/Hero';
 import TimeCounter from './components/TimeCounter';
 // import Gallery from './components/Gallery';
-import Reasons from './components/Reasons';
 import MusicPlayer from './components/MusicPlayer.tsx';
 import Footer from './components/Footer.tsx';
 import GiftReward from './components/GiftReward';
@@ -23,7 +22,7 @@ function App() {
         <MarqueeGallery />
         {/* <CarouselGallery /> */}
         {/* <Gallery /> */}
-        <Reasons />
+        {/* <OurStory /> */}
         <AlwaysWithYou />
         <Footer />
         <MusicPlayer />

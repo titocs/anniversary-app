@@ -56,7 +56,7 @@ const Hero = () => {
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display text-rose-900 mb-6 drop-shadow-sm leading-tight">
             Happy Anniversary <br />
-            <span className="italic text-rose-500">Tito & Gia</span>
+            <span className="italic text-rose-500">For Us</span>
           </h1>
           <div className="h-1 w-24 bg-rose-300 mx-auto my-8 rounded-full" />
           <p className="text-xl md:text-2xl text-rose-800/80 font-light tracking-wide font-display">

@@ -34,7 +34,7 @@ const MarqueeGallery = () => {
               className="relative w-64 md:w-80 h-96 shrink-0 rounded-2xl overflow-hidden shadow-lg border-4 border-white transform transition-transform duration-300 hover:scale-105"
             >
               <img 
-                src={photo.src} 
+                src={import.meta.env.BASE_URL + photo.src} 
                 alt={photo.caption} 
                 className="w-full h-full object-cover"
               />
